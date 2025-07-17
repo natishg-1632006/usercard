@@ -52,7 +52,6 @@ function User(props){
     </div>
   )
 }
-
 function UserCard() {
   return (
    <>
@@ -66,15 +65,7 @@ function UserCard() {
       online={user.online}
       info={user.info}
       />
-
     ))}
-
-
-   {/* <User name="Natish" city="Namakkal" disc="Front-End Developer" 
-   skills={["UI/UX","JS","HTML","CSS","REACT","NODE","JAVA"]} 
-    profile="2.png"
-    online={true}/> */}
-   
    </>
   )
 }
